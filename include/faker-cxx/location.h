@@ -10,6 +10,24 @@
 
 namespace faker::location
 {
+
+    std::vector<std::string> london_address = {
+        "Conway House, Annan Road\n"
+        "Colchester\n"
+        "England\n"
+        "CO4 3ZE\n"
+        "United Kingdom"
+    };
+    
+    std::vector<std::string> belgium_address = {  
+        "Diestsestraat 152\n"
+        "3000 Leuven Belgium",
+        "Blijde Inkomststraat 99\n"
+        "3000 Leuven Belgium"
+    };
+
+FAKER_CXX_EXPORT std::string random_address();
+
 /**
  * @brief Returns a random country name.
  *
